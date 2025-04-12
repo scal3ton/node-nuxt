@@ -27,9 +27,9 @@ import { useRouter, useRoute } from 'nuxt/app';
 import type { Component } from 'vue';
 
 // Import the tab components
-import Tab1Content from './Tab1Content.vue';
-import Tab2Content from './Tab2Content.vue';
-import Tab3Content from './Tab3Content.vue';
+import HomeContent from './HomeContent.vue';
+import AboutContent from './AboutContent.vue';
+import ContactContent from './ContactContent.vue';
 
 // Define the Tab type with Component and route
 interface Tab {
@@ -41,19 +41,19 @@ interface Tab {
 // Create the tab data with routes
 const tabs = ref<Tab[]>([
   {
-    title: 'Tab 1',
-    component: markRaw(Tab1Content),
-    route: '/tab1',
+    title: 'Home',
+    component: markRaw(HomeContent),
+    route: '/home',
   },
   {
-    title: 'Tab 2',
-    component: markRaw(Tab2Content),
-    route: '/tab2',
+    title: 'About',
+    component: markRaw(AboutContent),
+    route: '/about',
   },
   {
-    title: 'Tab 3',
-    component: markRaw(Tab3Content),
-    route: '/tab3',
+    title: 'Contact',
+    component: markRaw(ContactContent),
+    route: '/contact',
   },
 ]);
 

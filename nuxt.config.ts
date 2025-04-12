@@ -11,7 +11,6 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/fonts',
     '@nuxt/icon',
-    '@nuxt/scripts',
-    '@nuxthub/core'
+    '@nuxt/scripts'
   ]
 })
