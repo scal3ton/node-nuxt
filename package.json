@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
     "@nuxt/content": "3.4.0",
     "@nuxt/eslint": "1.3.0",
     "@nuxt/fonts": "0.11.1",
@@ -29,6 +30,8 @@
   },
   "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
   "devDependencies": {
+    "vite-plugin-vuetify": "^2.1.1",
+    "vuetify": "^3.8.1",
     "wrangler": "^4.10.0"
   }
 }
