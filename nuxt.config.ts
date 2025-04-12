@@ -13,8 +13,5 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/scripts',
     '@nuxthub/core'
-  ],
-  hub: {
-    // NuxtHub options
-  }
+  ]
 })
