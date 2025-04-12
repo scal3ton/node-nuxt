@@ -32,6 +32,9 @@ importers:
       '@nuxt/ui':
         specifier: 3.0.2
         version: 3.0.2(@babel/parser@7.27.0)(db0@0.3.1(better-sqlite3@11.9.1))(embla-carousel@8.6.0)(ioredis@5.6.1)(magicast@0.3.5)(typescript@5.8.3)(valibot@1.0.0(typescript@5.8.3))(vite@6.2.6(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(yaml@2.7.1))(zod@3.24.2)
+      '@nuxtjs/router':
+        specifier: ^1.7.0
+        version: 1.7.0
       '@unhead/vue':
         specifier: ^2.0.0-rc.8
         version: 2.0.5(vue@3.5.13(typescript@5.8.3))
@@ -731,6 +734,9 @@ packages:
 
   '@nuxtjs/mdc@0.16.1':
     resolution: {integrity: sha512-di9Ox9QY5pO2eIkQPyKFe9O8L3RvIrGbmjI3rJQRj1xGYRFj2S9RvBPCFbvfaqQGOTjOfxHLg8KtQIGj1Iw/lg==}
+
+  '@nuxtjs/router@1.7.0':
+    resolution: {integrity: sha512-7OXEYqE/7uM/7Bx1Ab8udyFgBux9h5IisJqNLMNa5hxt9oBtF43VXHEnnQV4FtYpKyg8ysTFDT9FJlC+tGqpQg==}
 
   '@oxc-parser/binding-darwin-arm64@0.56.5':
     resolution: {integrity: sha512-rj4WZqQVJQgLnGnDu2ciIOC5SqcBPc4x11RN0NwuedSGzny5mtBdNVLwt0+8iB15lIjrOKg5pjYJ8GQVPca5HA==}
@@ -1962,6 +1968,9 @@ packages:
   confbox@0.2.2:
     resolution: {integrity: sha512-1NB+BKqhtNipMsov4xI/NnhCKp9XG9NamYp5PVm9klAT0fsrNPjaFICsCFhNhwZJKNh7zB/3q8qXz0E9oaMNtQ==}
 
+  consola@2.15.3:
+    resolution: {integrity: sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==}
+
   consola@3.4.2:
     resolution: {integrity: sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==}
     engines: {node: ^14.18.0 || >=16.10.0}
@@ -2155,6 +2164,9 @@ packages:
   define-lazy-prop@3.0.0:
     resolution: {integrity: sha512-N+MeXYoqr3pOgn8xfyRPREN7gHakLYjhsHhWGT3fWAiL4IkAt0iDw14QiiEm2bE30c5XX5q0FtAA3CK5f9/BUg==}
     engines: {node: '>=12'}
+
+  defu@5.0.1:
+    resolution: {integrity: sha512-EPS1carKg+dkEVy3qNTqIdp2qV7mUP08nIsupfwQpz++slCVRw7qbQyWvSTig+kFPwz2XXp5/kIIkH+CwrJKkQ==}
 
   defu@6.1.4:
     resolution: {integrity: sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==}
@@ -6141,6 +6153,11 @@ snapshots:
       - magicast
       - supports-color
 
+  '@nuxtjs/router@1.7.0':
+    dependencies:
+      consola: 2.15.3
+      defu: 5.0.1
+
   '@oxc-parser/binding-darwin-arm64@0.56.5':
     optional: true
 
@@ -7308,6 +7325,8 @@ snapshots:
 
   confbox@0.2.2: {}
 
+  consola@2.15.3: {}
+
   consola@3.4.2: {}
 
   convert-source-map@2.0.0: {}
@@ -7479,6 +7498,8 @@ snapshots:
   define-lazy-prop@2.0.0: {}
 
   define-lazy-prop@3.0.0: {}
+
+  defu@5.0.1: {}
 
   defu@6.1.4: {}
 
