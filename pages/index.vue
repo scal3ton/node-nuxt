@@ -1,9 +1,9 @@
 <template>
     <div>
-        <TabTransition />
+        <Transition />
     </div>
 </template>
   
 <script setup lang="ts">
-import TabTransition from '~/components/Tab/TabTransition.vue';
+import Transition from '~/components/Transition/Transition.vue';
 </script>
