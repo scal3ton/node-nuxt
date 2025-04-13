@@ -1,9 +1,7 @@
 # My Nuxt Blog
-
 A modern blog platform built with Nuxt 3, featuring server-side rendering, markdown support, and a custom CMS.
 
 ## 🚀 Features
-
 - 🔥 Nuxt 3 + Composition API
 - 🗂️ File-based routing
 - 💅 Tailwind CSS integration
@@ -11,7 +9,6 @@ A modern blog platform built with Nuxt 3, featuring server-side rendering, markd
 - 🌍 i18n Support
 
 ## 🛠️ Built With
-
 - [Nuxt 3](https://nuxt.com/)
 - [Vue 3](https://vuejs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -19,11 +16,9 @@ A modern blog platform built with Nuxt 3, featuring server-side rendering, markd
 - [Axios](https://axios-http.com/)
 
 ## 📁 Project Structure
-
 ├── pages/ # Page components and routes ├── components/ # Reusable UI components ├── composables/ # Custom composables (useX) ├── plugins/ # Nuxt plugins ├── middleware/ # Navigation guards ├── nuxt.config.ts # Nuxt configuration
 
 ## 🚀 Getting Started
-
 ```bash
 # 1. Clone the repo
 git clone https://github.com/username/project-name.git
